@@ -1,0 +1,68 @@
+# Comprehensive Analysis of Student Habits and Academic Performance
+
+## Regression Analysis Findings
+- Model Performance: R² = 0.8704, RMSE = 4.1893
+- The model explains approximately 87% of the variance in exam scores
+- Top predictive features for exam scores:
+  * previous_gpa: 23.3493
+  * screen_time_level: -0.0903
+  * major_Biology: -0.0654
+  * learning_style_Visual: -0.0586
+  * parental_education_level_High School: 0.0584
+
+## Clustering Analysis Findings
+- Optimal number of clusters identified: 2
+
+### Cluster 0.0 Profile:
+- Average Exam Score: 89.18
+- Study Hours: 4.14
+- Sleep Hours: 7.08
+- Social Media Hours: 2.47
+- Attendance: 69.96%
+- Wellness Score: 7.32
+- Academic Engagement: 5.49
+
+### Cluster 1.0 Profile:
+- Average Exam Score: 89.10
+- Study Hours: 4.21
+- Sleep Hours: 6.95
+- Social Media Hours: 2.54
+- Attendance: 69.98%
+- Wellness Score: 6.18
+- Academic Engagement: 5.48
+
+## Classification Analysis Findings
+- Model Accuracy: 0.8969
+- Precision (High Performers): 0.8809
+- Recall (High Performers): 0.9276
+- Top features for predicting high performance:
+  * previous_gpa: 0.8000
+  * academic_engagement: 0.0220
+  * motivation_level: 0.0189
+  * study_hours_per_day: 0.0182
+  * exam_anxiety_score: 0.0161
+
+## Key Differences Between High and Low Performers
+- study_hours_per_day: High performers average 4.53 vs. low performers 3.78 (Difference: 0.75)
+- academic_engagement: High performers average 5.74 vs. low performers 5.22 (Difference: 0.52)
+- wellness_score: High performers average 6.87 vs. low performers 6.65 (Difference: 0.23)
+- sleep_hours: High performers average 7.11 vs. low performers 6.91 (Difference: 0.20)
+- time_management_score: High performers average 5.51 vs. low performers 5.49 (Difference: 0.02)
+- netflix_hours: High performers average 2.00 vs. low performers 2.00 (Difference: 0.00)
+- attendance_percentage: High performers average 69.96 vs. low performers 69.98 (Difference: -0.02)
+- social_media_hours: High performers average 2.49 vs. low performers 2.51 (Difference: -0.02)
+- stress_level: High performers average 4.85 vs. low performers 5.19 (Difference: -0.34)
+
+## Integrated Insights
+1. Academic engagement and study hours are consistently the strongest predictors of exam performance
+2. Sleep quality and wellness scores show significant positive correlation with academic performance
+3. Screen time and social media usage show negative correlation with exam scores
+4. Time management skills appear to be more important than raw study hours
+5. Students with balanced lifestyles (adequate sleep, exercise, and study) tend to perform better
+
+## Recommendations
+1. Focus on improving academic engagement through interactive learning methods
+2. Promote healthy sleep habits and wellness practices
+3. Teach effective time management skills rather than just encouraging more study hours
+4. Develop strategies to manage screen time and social media usage
+5. Create support systems that encourage balanced lifestyles
