@@ -172,11 +172,4 @@ In this project, we built and compared three machine learning models to predict 
 4. **External Validation**: Validate the model on external datasets to ensure generalizability
 5. **Web Application**: Develop a web interface for easy use by healthcare professionals
 
-## Acknowledgements
 
-- The dataset used in this project contains synthetic data for educational purposes
-- This project was created as a beginner-friendly example of machine learning for healthcare applications
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
