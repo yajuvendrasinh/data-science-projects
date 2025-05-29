@@ -195,12 +195,3 @@ This project successfully developed and optimized a machine learning model for d
 3.  **Feature Engineering**: Investigate creating new features from existing ones to potentially improve model accuracy.
 4.  **Explainability**: Implement model explainability techniques (e.g., SHAP, LIME) to better understand the model's predictions.
 5.  **Deployment**: Package the model into a web application or API for easier access and use.
-
-## Acknowledgements
-
-- The dataset used in this project contains synthetic data generated for educational and demonstration purposes.
-- This project serves as a beginner-friendly example of a typical machine learning workflow for classification tasks.
-
-## License
-
-This project is licensed under the MIT License.
