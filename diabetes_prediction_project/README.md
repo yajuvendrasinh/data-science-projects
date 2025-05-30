@@ -70,6 +70,9 @@ Three different baseline models were implemented and compared:
 1.  **Method**: Used `RandomizedSearchCV` to efficiently search for the best hyperparameters for the Random Forest model.
 2.  **Parameters Tuned**: Explored combinations of `n_estimators`, `max_features`, `max_depth`, `min_samples_split`, `min_samples_leaf`, and `bootstrap`.
 3.  **Result**: Identified the optimal hyperparameter set that improved model performance compared to the baseline Random Forest.
+4.  **Accuracy Comparison** (See notebook sections 7.3 and 7.5 for exact values):
+    *   Baseline Random Forest Accuracy (`accuracy_rf`): ~0.9705
+    *   After Hyperparameter Tuning (RandomizedSearchCV) (`accuracy_rf_tuned`): ~0.9710
 
 ### Model Evaluation
 
